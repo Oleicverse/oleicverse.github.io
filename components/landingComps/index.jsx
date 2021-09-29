@@ -2,7 +2,7 @@ import Dialog from './dialog'
 
 function Container({ children }) {
   return (
-    <div className="w-screen h-screen bg-black">
+    <div className="w-screen h-screen object-cover" style={{ backgroundImage: "url('./background.png')" }}>
       {children}
     </div>
   )
