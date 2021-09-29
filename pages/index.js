@@ -1,7 +1,18 @@
 import Head from 'next/head'
+import {
+  Container,
+  Dialog,
+  Footer,
+} from '../components/landingComps'
 
 export default function Home() {
   return (
-    <div>Hello</div>
+    <Container>
+      <Dialog>
+      </Dialog>
+
+      <Footer >
+      </Footer >
+    </Container>
   )
 }
