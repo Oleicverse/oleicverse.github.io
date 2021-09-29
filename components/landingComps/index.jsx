@@ -52,9 +52,9 @@ function UpperBar() {
 function LowerBar() {
   return (
     <div className="flex justify-between py-3">
-      <div className="text-white flex-grow hidden md:block">Copyright 2021 Oleic. All Rights Reserved.</div>
-      <div className="text-white flex-grow text-left md:text-center">Arcade  .  Blog  .  Terms</div>
-      <div className="text-white flex-grow flex space-x-2 justify-end">
+      <div className="flex-grow hidden md:block">Copyright 2021 Oleic. All Rights Reserved.</div>
+      <div className="flex-grow text-left md:text-center">Arcade  .  Blog  .  Terms</div>
+      <div className="flex-grow flex space-x-2 justify-end">
         <Icons/>
       </div>
     </div>
@@ -63,10 +63,13 @@ function LowerBar() {
 
 function Footer({ children }) {
   return (
-      <div className="absolute flex w-screen h-screen justify-center items-end">
-          <div className="px-8 md:px-20 lg:px-32 w-full h-20">
+      <div className="absolute flex w-screen h-screen justify-center items-end text-white">
+          <div className="px-8 md:px-20 lg:px-32 w-full py-2">
             <UpperBar />
             <LowerBar />
+            <div className="md:hidden text-center" style={{ color: '#BDBDBD' }}>
+              2021 Oleic Technologies
+            </div>
           </div>
       </div>
   )
