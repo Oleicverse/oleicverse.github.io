@@ -18,9 +18,9 @@ function Button () {
 export default function Dialog() {
   return (
       <div className="absolute flex w-screen h-screen justify-center items-center">
-        <div className="bg-white lg:w-1/2 md:w-3/4 sm:w-3/4 rounded-xl">
+        <div className="bg-white w-3/4 lg:w-1/2 rounded-xl">
           <div className="flex flex-col p-12 space-y-8 h-full">
-            <div> <h1 className="font-bold text-6xl">Teach yourself anything.</h1> </div>
+            <div> <h1 className="font-bold text-4xl lg:text-6xl">Teach yourself anything.</h1> </div>
             <div>
               <p>
                 Our mission is to provide games that empower every child in the world to learn, create, and inspire.
