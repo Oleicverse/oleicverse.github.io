@@ -1,3 +1,5 @@
+import Dialog from './dialog'
+
 function Container({ children }) {
   return (
     <div className="w-screen h-screen bg-black">
@@ -7,16 +9,6 @@ function Container({ children }) {
 
 }
 
-
-function Dialog({ children }) {
-  return (
-      <div className="absolute flex w-screen h-screen justify-center items-center">
-          <div className="bg-white w-1/2 h-1/2">
-            {children}
-          </div>
-      </div>
-  )
-}
 
 function Footer({ children }) {
   return (
