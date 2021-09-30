@@ -52,8 +52,8 @@ function UpperBar() {
 function LowerBar() {
   return (
     <div className="flex justify-between py-3">
-      <div className="flex-grow hidden md:block">Copyright 2021 Oleic. All Rights Reserved.</div>
-      <div className="flex-grow text-left md:text-center">Arcade  .  Blog  .  Terms</div>
+      <div className="flex-grow hidden lg:block">Copyright 2021 Oleic. All Rights Reserved.</div>
+      <div className="flex-grow text-left lg:text-center">Arcade  .  Blog  .  Terms</div>
       <div className="flex-grow flex space-x-2 justify-end">
         <Icons/>
       </div>
