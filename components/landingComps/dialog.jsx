@@ -1,5 +1,4 @@
 import telegram from './telegram.png';
-import Image from 'next/image';
 
 function ArrowRight ({ className }) {
   return (
@@ -19,11 +18,9 @@ function ArrowDown({ className }) {
 }
 
 function Telegram({ className }) {
-  return <Image
+  return <img
            className={className}
            src={telegram.src}
-           width={20}
-           height={20}
          />
 }
 
@@ -51,7 +48,7 @@ function InsideButton() {
         <ArrowRight className="hidden md:hidden lg:block w-4 h-4 text-white fill-current"/>
         <ArrowDown className="md:hidden w-4 h-4 text-white fill-current"/>
         <div className="hidden md:block lg:hidden">
-          <Telegram />
+          <Telegram className="w-4 h-4" />
         </div>
       </span>
     </>
